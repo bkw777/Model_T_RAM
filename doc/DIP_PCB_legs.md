@@ -1,8 +1,10 @@
-Following are a few different ways to make DIP legs on PCBs, where the legs are thin enough not to harm sockets of any type, and with little or no shoulder or insulator.
+Following are a few different ways to make DIP legs on PCBs, where the legs are thin enough not to harm sockets of any type, and low profile with little or no shoulder or insulator.
 
-Standard square pin headrs are far too large and completely unsuitable. They physically can't be inserted into machined round sockets, and they damage leaf sockets by over-compressing the contacts.  
+Standard square pin headrs are far too large and completely unsuitable. They physically can't be inserted into machined round sockets, and they damage leaf sockets by over-compressing the contacts.
 
-Standard machined round pin headers are thinner, but still technically outside what the datasheets of most sockets claim to support, and in many situations there is no room for the large shoulder and insulator.  
+Standard machined round pin headers are thinner, but still technically outside what the datasheets of most sockets claim to support, and in many situations there is no room for the large shoulder and insulator.
+
+Plated vias with 0.6mm drill are large enough for all of the following methods.
 
 # SIL Leadframe
 [TE Connectivity 1544210 SIL leadframe](https://www.digikey.com/short/128v4wzj)  
@@ -13,7 +15,7 @@ Cut the "busy" ends off the legs with scissors, leaving a simple "comb" of legs.
 ![](sil_legs_2.jpg)
 
 Drop that comb down from the top, leaving about 4mm of leg extending from the bottom.  
-![](sil_legs_2.jpg)
+![](sil_legs_3.jpg)
 
 Solder, then cut the tops off flush.  
 
@@ -24,13 +26,17 @@ These require no special explaination.
 
 [Keystone 1378](https://www.digikey.com/short/nd73r30q)
 
+![](machined_legs_1.jpg)
+![](machined_legs_2.jpg)
+
 # Wire  
-[gold-plated brass wire](https://duckduckgo.com/?t=canonical&q=brass+hard+gold-filled+26gauge)
+[gold-plated brass wire](https://duckduckgo.com/?t=canonical&q=brass+hard+gold-filled+26gauge+wire)
 
 ### materials
 First you need to find a source for the wire, without getting junk wire that won't work.  
 No sellers are writing their item descriptions for electronics, so it takes careful examination to tell suitable products from unsuitable ones.  
 There are many small vendors that sometimes have this kind of wire, but they come and go and their stock comes and goes.  
+Also proces vary quite a bit, so don't necessarily buy the first thing that meets the specs.  
 
 Start with the search above.
 
@@ -40,9 +46,14 @@ You want wire that has the following properties:
 * hard or half-hard temper  
 * gold filled / gold plated
 * round
+* 1 foot length or more
 * no "tarnish resistant" coating
 
-![](wire_legs_wire.jpg)
+A couple of good examples:  
+[](https://www.wirejewelry.com/round-gold-wire/26_Gauge_Round_Half_Hard_14_20_Gold_Filled_Wire-8628-916.html)  
+[](https://www.etsy.com/listing/792331329/14k-gold-filled-wires-round-wires-soft?variation0=1365993623&variation1=1347469632)  
+![](wire_legs_wire.jpg)  
+(The uGems actually came from ebay, and their actual site doesn't have it)
 
 There are many many products that look the same and have very similar descriptions in their listings.  
 You have to look over the descriptions carefully to make sure you don't get gold colored anodized aluminum wire with laquer coating.  
@@ -50,6 +61,8 @@ Avoid anything with any of these terms:
 * soft, dead soft
 * anti-tarnish, tarnish resistant
 * colored
+
+A single foot of wire makes 50 legs. wirejewelry.com 
 
 A single foot of wire provides about about 50 legs that are:  
 * gold plated  
