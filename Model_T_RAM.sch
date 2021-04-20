@@ -5,8 +5,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Model T RAM Module"
-Date "2021-04-13"
-Rev "001"
+Date "2021-04-20"
+Rev "003"
 Comp "b.kenyon.w@gmail.com"
 Comment1 ""
 Comment2 ""
@@ -31,7 +31,7 @@ P 7900 3700
 F 0 "U1" H 7900 4800 50  0000 C CNN
 F 1 "6264" H 7900 4900 50  0000 C CNN
 F 2 "000_LOCAL:AS6C6264-55SCN" H 7900 3600 50  0001 C CNN
-F 3 "https://www.futurlec.com/Datasheet/Memory/62256.pdf" H 7900 3600 50  0001 C CNN
+F 3 "" H 7900 3600 50  0001 C CNN
 	1    7900 3700
 	1    0    0    -1  
 $EndComp
@@ -220,9 +220,9 @@ Entry Wire Line
 Wire Wire Line
 	7100 4200 7400 4200
 Wire Wire Line
-	8400 4100 8700 4100
+	8400 4000 8700 4000
 Entry Wire Line
-	8700 4100 8800 4000
+	8700 4000 8800 3900
 Wire Wire Line
 	8400 4300 8700 4300
 Entry Wire Line
@@ -279,28 +279,6 @@ F 3 "" H 2500 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 000_LOCAL:74HC86 U2
-U 1 1 60785C24
-P 5300 3100
-F 0 "U2" H 5300 3170 50  0000 C CNN
-F 1 "74HC86" H 5300 3100 50  0000 C CNN
-F 2 "000_LOCAL:SOIC-14_3.9x8.7mm_P1.27mm" H 5300 3100 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74HC86" H 5300 3100 50  0001 C CNN
-	1    5300 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L 000_LOCAL:74HC86 U2
-U 5 1 60795F64
-P 5200 5900
-F 0 "U2" H 5530 5970 50  0000 L CNN
-F 1 "74HC86" H 5450 5900 50  0000 L CNN
-F 2 "000_LOCAL:SOIC-14_3.9x8.7mm_P1.27mm" H 5200 5900 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74HC86" H 5200 5900 50  0001 C CNN
-	5    5200 5900
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:VCC #PWR0105
 U 1 1 607CD4E2
 P 5200 5400
@@ -322,137 +300,16 @@ F 3 "" H 5200 6400 50  0001 C CNN
 	1    5200 6400
 	1    0    0    -1  
 $EndComp
-Entry Wire Line
-	4600 2900 4700 3000
-Wire Wire Line
-	5000 3000 4700 3000
 Text Label 3000 4400 0    50   ~ 0
 ~CS_D
-Text Label 5000 3000 2    50   ~ 0
-~CS_D
-Wire Wire Line
-	5000 3200 4800 3200
-Entry Wire Line
-	4600 3900 4700 4000
-Connection ~ 4600 5000
-Wire Bus Line
-	3400 5000 4600 5000
-Entry Wire Line
-	5800 3500 5900 3400
-Entry Wire Line
-	5800 4300 5900 4200
 Text Label 3000 4200 0    50   ~ 0
-~CS_B
-Text Label 5000 4000 2    50   ~ 0
 ~CS_B
 Text Label 3000 4300 0    50   ~ 0
 ~CS_C
-Text Label 5000 3200 2    50   ~ 0
-~CS_C
-Entry Wire Line
-	4600 3100 4700 3200
-Wire Wire Line
-	4800 3200 4700 3200
-Connection ~ 4800 3200
 Text Label 3000 4100 0    50   ~ 0
 ~CS_A
-Text Label 5600 3900 0    50   ~ 0
-A11
-Entry Wire Line
-	5800 3900 5900 3800
-Text Label 5600 4300 0    50   ~ 0
-A12
-Text Label 5600 3500 0    50   ~ 0
-CE2
-Text Label 8400 4100 0    50   ~ 0
-CE2
-$Comp
-L power:GND #PWR0107
-U 1 1 609A2377
-P 8400 4000
-F 0 "#PWR0107" H 8400 3750 50  0001 C CNN
-F 1 "GND" V 8400 3820 50  0000 C CNN
-F 2 "" H 8400 4000 50  0001 C CNN
-F 3 "" H 8400 4000 50  0001 C CNN
-	1    8400 4000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L 000_LOCAL:74HC86 U2
-U 2 1 607885D1
-P 5300 3500
-F 0 "U2" H 5300 3570 50  0000 C CNN
-F 1 "74HC86" H 5300 3500 50  0000 C CNN
-F 2 "000_LOCAL:SOIC-14_3.9x8.7mm_P1.27mm" H 5300 3500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74HC86" H 5300 3500 50  0001 C CNN
-	2    5300 3500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5000 4000 4700 4000
-$Comp
-L 000_LOCAL:74HC86 U2
-U 3 1 6078B6F7
-P 5300 3900
-F 0 "U2" H 5300 3970 50  0000 C CNN
-F 1 "74HC86" H 5300 3900 50  0000 C CNN
-F 2 "000_LOCAL:SOIC-14_3.9x8.7mm_P1.27mm" H 5300 3900 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74HC86" H 5300 3900 50  0001 C CNN
-	3    5300 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L 000_LOCAL:74HC86 U2
-U 4 1 607904BD
-P 5300 4300
-F 0 "U2" H 5300 4370 50  0000 C CNN
-F 1 "74HC86" H 5300 4300 50  0000 C CNN
-F 2 "000_LOCAL:SOIC-14_3.9x8.7mm_P1.27mm" H 5300 4300 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74HC86" H 5300 4300 50  0001 C CNN
-	4    5300 4300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5000 4200 4900 4200
-Wire Wire Line
-	4900 4200 4900 3800
-Wire Wire Line
-	4900 3800 5000 3800
-Wire Wire Line
-	5000 4400 4800 4400
-Wire Wire Line
-	4800 3200 4800 4400
-Wire Wire Line
-	5000 3600 5000 3700
-Wire Wire Line
-	5000 3700 5600 3700
-Wire Wire Line
-	5600 3700 5600 3900
-Wire Wire Line
-	5000 3400 5000 3300
-Wire Wire Line
-	5000 3300 5600 3300
-Wire Wire Line
-	5600 3300 5600 3100
-Wire Bus Line
-	4600 5000 5900 5000
-Connection ~ 5900 5000
-Wire Bus Line
-	5900 5000 7000 5000
-Wire Wire Line
-	5600 3900 5800 3900
-Connection ~ 5600 3900
-Wire Wire Line
-	5600 4300 5800 4300
-Wire Wire Line
-	5600 3500 5800 3500
-Connection ~ 4900 3800
-Wire Wire Line
-	4700 3800 4900 3800
-Entry Wire Line
-	4600 3700 4700 3800
-Text Label 5000 3800 2    50   ~ 0
-~CS_A
+Text Label 8400 4000 0    50   ~ 0
+~CE
 Text Label 7400 4100 2    50   ~ 0
 A11
 Text Label 7400 4200 2    50   ~ 0
@@ -556,9 +413,138 @@ Connection ~ 7000 5000
 Wire Bus Line
 	7000 5000 8800 5000
 Wire Bus Line
-	5900 3400 5900 5000
+	3400 5000 4200 5000
+$Comp
+L 000_LOCAL:74HC08 U2
+U 5 1 608031FE
+P 5200 5900
+F 0 "U2" H 5120 5950 50  0000 L CNN
+F 1 "74HC08" H 5050 5860 50  0000 L CNN
+F 2 "000_LOCAL:SOIC-14_3.9x8.7mm_P1.27mm" H 5200 5900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 5200 5900 50  0001 C CNN
+	5    5200 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 000_LOCAL:74HC08 U2
+U 1 1 608063D1
+P 5500 4200
+F 0 "U2" H 5450 4280 50  0000 C CNN
+F 1 "74HC08" H 5500 4200 50  0000 C CNN
+F 2 "000_LOCAL:SOIC-14_3.9x8.7mm_P1.27mm" H 5500 4200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 5500 4200 50  0001 C CNN
+	1    5500 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 000_LOCAL:74HC08 U2
+U 2 1 60815F59
+P 4900 3500
+F 0 "U2" H 4850 3580 50  0000 C CNN
+F 1 "74HC08" H 4900 3500 50  0000 C CNN
+F 2 "000_LOCAL:SOIC-14_3.9x8.7mm_P1.27mm" H 4900 3500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 4900 3500 50  0001 C CNN
+	2    4900 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 000_LOCAL:74HC08 U2
+U 3 1 6081B7BF
+P 4900 3900
+F 0 "U2" H 4850 3980 50  0000 C CNN
+F 1 "74HC08" H 4900 3900 50  0000 C CNN
+F 2 "000_LOCAL:SOIC-14_3.9x8.7mm_P1.27mm" H 4900 3900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 4900 3900 50  0001 C CNN
+	3    4900 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 000_LOCAL:74HC08 U2
+U 4 1 6081F8E2
+P 4900 4300
+F 0 "U2" H 4850 4380 50  0000 C CNN
+F 1 "74HC08" H 4900 4300 50  0000 C CNN
+F 2 "000_LOCAL:SOIC-14_3.9x8.7mm_P1.27mm" H 4900 4300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 4900 4300 50  0001 C CNN
+	4    4900 4300
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	4200 4300 4300 4400
+Wire Wire Line
+	4300 4400 4600 4400
+Entry Wire Line
+	4200 3300 4300 3400
+Wire Wire Line
+	4300 3400 4400 3400
+Text Label 4600 4400 2    50   ~ 0
+~CS_D
+Entry Wire Line
+	4200 3500 4300 3600
+Wire Wire Line
+	4300 3600 4600 3600
+Entry Wire Line
+	4200 3900 4300 4000
+Wire Wire Line
+	4300 4000 4600 4000
+Text Label 4600 3600 2    50   ~ 0
+~CS_A
+Text Label 4600 4000 2    50   ~ 0
+~CS_B
+Text Label 4600 3400 2    50   ~ 0
+~CS_C
+Wire Wire Line
+	5800 4200 6100 4200
+Entry Wire Line
+	6100 4200 6200 4100
+Text Label 5800 4200 0    50   ~ 0
+~CE
+Wire Wire Line
+	5200 3500 6100 3500
+Entry Wire Line
+	6100 3500 6200 3400
+Text Label 5200 3500 0    50   ~ 0
+A11
+$Comp
+L power:VCC #PWR0107
+U 1 1 608C614D
+P 8400 4100
+F 0 "#PWR0107" H 8400 3950 50  0001 C CNN
+F 1 "VCC" V 8390 4210 50  0000 L CNN
+F 2 "" H 8400 4100 50  0001 C CNN
+F 3 "" H 8400 4100 50  0001 C CNN
+	1    8400 4100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5200 3900 6100 3900
+Entry Wire Line
+	6100 3900 6200 3800
+Text Label 5200 3900 0    50   ~ 0
+A12
+Wire Wire Line
+	4400 3400 4600 3400
+Wire Wire Line
+	4400 4200 4600 4200
+Connection ~ 4400 3400
+Wire Wire Line
+	4400 3400 4400 4200
+Connection ~ 4600 3600
+Wire Wire Line
+	4600 3600 4600 3800
+Connection ~ 5200 3900
+Wire Wire Line
+	5200 3900 5200 4100
+Connection ~ 4200 5000
+Connection ~ 6200 5000
 Wire Bus Line
-	4600 2900 4600 5000
+	4200 5000 6200 5000
+Wire Bus Line
+	6200 5000 7000 5000
+Wire Bus Line
+	6200 3400 6200 5000
+Wire Bus Line
+	4200 3300 4200 5000
 Wire Bus Line
 	8800 2900 8800 5000
 Wire Bus Line

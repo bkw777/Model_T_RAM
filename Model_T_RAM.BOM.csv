@@ -1,4 +1,4 @@
 "Index","Quantity","Part Number","Manufacturer Part Number","Description","Customer Reference","Available","Backorder","Unit Price","Extended Price USD"
 "1","50","A117856CT-ND","1544210-2","SIL CONTACT Y1 THROUGH HOLE","","50","0","0.03040","1.52"
 "2","1","1450-1037-ND","AS6C6264-55SCN","IC SRAM 64KBIT PARALLEL 28SOP","","1","0","2.73000","2.73"
-"3","1","MC74HC86ADGOS-ND","MC74HC86ADG","IC GATE XOR 4CH 2-INP 14SOIC","","1","0","0.42000","0.42"
+"3","1","74HC08DCT-ND","74HC08D","IC GATE AND 4CH 2-INP 14SOIC","","1","0","0.37000","0.37"
