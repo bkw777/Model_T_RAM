@@ -22,9 +22,7 @@ Solder, then cut the tops off flush.
 # Machined brass micro-pins  
 These require no special explaination.
 
-[Mill-Max 3121](https://www.digikey.com/short/vmmq3hf7)
-
-[Keystone 1378](https://www.digikey.com/short/nd73r30q)
+[Mill-Max 3121](https://www.digikey.com/short/vmmq3hf7) or [Keystone 1378](https://www.digikey.com/short/nd73r30q)
 
 ![](machined_legs_1.jpg)
 ![](machined_legs_2.jpg)
