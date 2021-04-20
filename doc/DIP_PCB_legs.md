@@ -48,8 +48,8 @@ You want wire that has the following properties:
 * no "tarnish resistant" coating
 
 A couple of good examples:  
-[](https://www.wirejewelry.com/round-gold-wire/26_Gauge_Round_Half_Hard_14_20_Gold_Filled_Wire-8628-916.html)  
-[](https://www.etsy.com/listing/792331329/14k-gold-filled-wires-round-wires-soft?variation0=1365993623&variation1=1347469632)  
+[wirejewelry.com](https://www.wirejewelry.com/round-gold-wire/26_Gauge_Round_Half_Hard_14_20_Gold_Filled_Wire-8628-916.html)  
+[etsy](https://www.etsy.com/listing/792331329/14k-gold-filled-wires-round-wires-soft?variation0=1365993623&variation1=1347469632)  
 ![](wire_legs_wire.jpg)  
 (The uGems actually came from ebay, and their actual site doesn't have it)
 
