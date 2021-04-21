@@ -12,12 +12,6 @@ K TTL and2
 F http://www.ti.com/lit/gpn/sn74LS08
 $ENDCMP
 #
-$CMP 74HC86
-D Quad 2-input XOR
-K TTL XOR2
-F http://www.ti.com/lit/gpn/sn74HC86
-$ENDCMP
-#
 $CMP KC-85_RAM
 D 8Kx8 bit Static RAM Module
 K RAM SRAM MEMORY
