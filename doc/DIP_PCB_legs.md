@@ -2,9 +2,9 @@ Following are a few different ways to make DIP legs on PCBs, where the legs are 
 
 Standard square pin headrs are far too large and completely unsuitable. They physically can't be inserted into machined round sockets, and they damage leaf sockets by over-compressing the contacts.
 
-Standard machined round pin headers are thinner, but still technically outside what the datasheets of most sockets claim to support, and in many situations there is no room for the large shoulder and insulator.
+Standard machined round pin headers are better, but still technically a bit thicker than what the data sheets for some sockets claim to support, and that have a very large shoulder & insulator which there may not be room for in some situations.
 
-Plated vias with 0.6mm drill are large enough for all of the following methods.
+Plated vias with 0.6mm drill are the ideal size for all of the following.
 
 # SIL Leadframe
 [TE Connectivity 1544210 SIL leadframe](https://www.digikey.com/short/128v4wzj)  
@@ -32,11 +32,11 @@ These require no special explaination.
 
 ### materials
 First you need to find a source for the wire, without getting junk wire that won't work.  
-No sellers are writing their item descriptions for electronics, so it takes careful examination to tell suitable products from unsuitable ones.  
-There are many small vendors that sometimes have this kind of wire, but they come and go and their stock comes and goes.  
-Also proces vary quite a bit, so don't necessarily buy the first thing that meets the specs.  
+This kind of wire is usually sold for making jewelry, and the sellers do not write their descriptions with electronics use in mind, so it takes careful examination to tell suitable products from unsuitable ones.  
+There are many small vendors that sometimes have this kind of wire, but the sellers come and go and their stock comes and goes.  
+Also prices vary quite a bit, so don't necessarily buy the first thing you find that meets the specs.  
 
-Start with the search above.
+Start with a basic search for [gold-plated brass wire](https://duckduckgo.com/?t=canonical&q=brass+hard+gold-filled+26gauge+wire) .
 
 You want wire that has the following properties:  
 * solid brass  
@@ -50,23 +50,22 @@ You want wire that has the following properties:
 A couple of good examples:  
 [wirejewelry.com](https://www.wirejewelry.com/round-gold-wire/26_Gauge_Round_Half_Hard_14_20_Gold_Filled_Wire-8628-916.html)  
 [etsy](https://www.etsy.com/listing/792331329/14k-gold-filled-wires-round-wires-soft?variation0=1365993623&variation1=1347469632)  
+[etsy](https://www.etsy.com/listing/880346812/550meters-14k-real-gold-plated-brass?organic_search_click=1&pro=1&variation0=1599473932&variation1=1614789293)  
 ![](wire_legs_wire.jpg)  
-(The uGems actually came from ebay, and their actual site doesn't have it)
+(The uGems actually came from ebay, and their web site doesn't have it)
 
 There are many many products that look the same and have very similar descriptions in their listings.  
 You have to look over the descriptions carefully to make sure you don't get gold colored anodized aluminum wire with laquer coating.  
-Avoid anything with any of these terms:  
+Avoid anything with any of these terms in the description:  
 * soft, dead soft
 * anti-tarnish, tarnish resistant
 * colored
-
-A single foot of wire makes 50 legs. wirejewelry.com 
 
 A single foot of wire provides about about 50 legs that are:  
 * gold plated  
 * the same strength/stiffness as ordinary chip legs  
 * malleable enough to survive being bent and straightened a few times  
-* small enough diameter not to harm sockets of any type
+* small enough diameter not to harm sockets
 
 You also need:  
 * a standard breadboard
@@ -75,7 +74,7 @@ You also need:
 
 ### procedure
 
-Solder the ICs on the PCB before proceeding to the legs.
+Solder other components on the PCB before doing the legs.
 
 1. Break the 40-pin socket in half.  
 2. Insert the two 20-pin sockets into the breadboard parallel to each other and 0.7 inches apart.  
@@ -97,8 +96,8 @@ Solder the ICs on the PCB before proceeding to the legs.
 7. Cut the wire flush with the top of the PCB.  
 ![](wire_legs_7.jpg)
 
-8. Repeat 6. and 7. for pin #15 (the opposite corner pin)  
-9. Solder those 2 pins.  
+8. Repeat 6. and 7. for the opposite corner pin  
+9. Solder those 2 corner pins.  
 ![](wire_legs_8-9.jpg)
 
 10 Repeat 6. and 7. for all other pins.  
