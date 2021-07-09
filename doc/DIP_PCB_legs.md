@@ -4,7 +4,7 @@ Standard square pin headrs are far too large and completely unsuitable. They phy
 
 Standard machined round pin headers are better, but still technically a bit thicker than what the data sheets for some sockets claim to support, and that have a very large shoulder & insulator which there may not be room for in some situations.
 
-Plated vias with 0.6mm drill are the ideal size for all of the following.
+The hole size to use for the plated through holes for all of these is the same, 0.6mm or 24mils.
 
 # SIL Leadframe
 [TE Connectivity 1544210 SIL leadframe](https://www.digikey.com/short/128v4wzj)  
