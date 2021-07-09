@@ -1,9 +1,5 @@
 Following are a few different ways to make DIP legs on PCBs, where the legs are thin enough not to harm sockets of any type, and low profile with little or no shoulder or insulator.
 
-Standard square pin headrs are far too large and completely unsuitable. They physically can't be inserted into machined round sockets, and they damage leaf sockets by over-compressing the contacts.
-
-Standard machined round pin headers are better, but still technically a bit thicker than what the data sheets for some sockets claim to support, and that have a very large shoulder & insulator which there may not be room for in some situations.
-
 The hole size to use for the plated through holes for all of these is the same, 0.6mm or 24mils.
 
 # SIL Leadframe
