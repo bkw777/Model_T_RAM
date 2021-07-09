@@ -47,12 +47,12 @@ You want wire that has the following properties:
 * 1 foot length or more
 * no "tarnish resistant" coating
 
-A couple of good examples:  
+A few good examples:  
 [wirejewelry.com](https://www.wirejewelry.com/round-gold-wire/26_Gauge_Round_Half_Hard_14_20_Gold_Filled_Wire-8628-916.html)  
-[etsy](https://www.etsy.com/listing/792331329/14k-gold-filled-wires-round-wires-soft?variation0=1365993623&variation1=1347469632)  
-[etsy](https://www.etsy.com/listing/880346812/550meters-14k-real-gold-plated-brass?organic_search_click=1&pro=1&variation0=1599473932&variation1=1614789293)  
+[etsy StirlingSilverBox](https://www.etsy.com/listing/792331329/14k-gold-filled-wires-round-wires-soft?variation0=1365993623&variation1=1347469632)  
+[etsy AnniesLittleThings](https://www.etsy.com/listing/880346812/550meters-14k-real-gold-plated-brass?organic_search_click=1&pro=1&variation0=1599473932&variation1=1614789293)  
 ![](wire_legs_wire.jpg)  
-(The uGems actually came from ebay, and their web site doesn't have it)
+(The uGems one actually came from ebay, and their own web site doesn't list this item)
 
 There are many many products that look the same and have very similar descriptions in their listings.  
 You have to look over the descriptions carefully to make sure you don't get gold colored anodized aluminum wire with laquer coating.  
