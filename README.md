@@ -11,7 +11,6 @@
 [PCB from OSHPark](https://oshpark.com/shared_projects/lwLKIvI9)  
 [PCB from PCBWAY](https://www.pcbway.com/project/shareproject/Model_T_RAM.html)
 
-<!-- [BOM for 74HC86 version](https://www.digikey.com/short/ft835777) -->
-[BOM from DigiKey](https://www.digikey.com/short/mmz28n7q)
+[BOM from DigiKey](https://www.digikey.com/short/ft835777)
 
 [How to do the legs](doc/DIP_PCB_legs.md)
