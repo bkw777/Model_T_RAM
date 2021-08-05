@@ -545,6 +545,8 @@ Wire Wire Line
 	5300 3500 6100 3500
 Wire Wire Line
 	6100 4200 5900 4200
+Text Notes 3880 2980 0    50   ~ 0
+PROBLEM: Does not put chip to sleep when machine is on standby.
 Wire Bus Line
 	6200 3400 6200 5000
 Wire Bus Line
@@ -557,6 +559,8 @@ Wire Bus Line
 	3400 2900 3400 5000
 Wire Bus Line
 	7000 2900 7000 5000
-Text Notes 3810 2980 0    50   ~ 0
-PROBLEM: Does not put chip to sleep when computer is on standby.
+Text Notes 1500 4300 2    50   ~ 0
+RAM_RST
+Text Notes 1500 5320 0    50   ~ 0
+~OE~ is RAM_RST, is high while machine is on standby
 $EndSCHEMATC
