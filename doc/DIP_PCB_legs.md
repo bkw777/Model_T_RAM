@@ -1,10 +1,6 @@
 Following are a few different ways to make DIP legs on PCBs, where the legs are thin enough not to harm sockets of any type, and low profile with little or no shoulder or insulator.
 
-Standard square pin headrs are far too large and completely unsuitable. They physically can't be inserted into machined round sockets, and they damage leaf sockets by over-compressing the contacts.
-
-Standard machined round pin headers are better, but still technically a bit thicker than what the data sheets for some sockets claim to support, and that have a very large shoulder & insulator which there may not be room for in some situations.
-
-Plated vias with 0.6mm drill are the ideal size for all of the following.
+The hole size to use for the plated through holes for all of these is the same, 0.6mm or 24mils.
 
 # SIL Leadframe
 [TE Connectivity 1544210 SIL leadframe](https://www.digikey.com/short/128v4wzj)  
@@ -47,12 +43,12 @@ You want wire that has the following properties:
 * 1 foot length or more
 * no "tarnish resistant" coating
 
-A couple of good examples:  
+A few good examples:  
 [wirejewelry.com](https://www.wirejewelry.com/round-gold-wire/26_Gauge_Round_Half_Hard_14_20_Gold_Filled_Wire-8628-916.html)  
-[etsy](https://www.etsy.com/listing/792331329/14k-gold-filled-wires-round-wires-soft?variation0=1365993623&variation1=1347469632)  
-[etsy](https://www.etsy.com/listing/880346812/550meters-14k-real-gold-plated-brass?organic_search_click=1&pro=1&variation0=1599473932&variation1=1614789293)  
+[etsy StirlingSilverBox](https://www.etsy.com/listing/792331329/14k-gold-filled-wires-round-wires-soft?variation0=1365993623&variation1=1347469632)  
+[etsy AnniesLittleThings](https://www.etsy.com/listing/880346812/550meters-14k-real-gold-plated-brass?organic_search_click=1&pro=1&variation0=1599473932&variation1=1614789293)  
 ![](wire_legs_wire.jpg)  
-(The uGems actually came from ebay, and their web site doesn't have it)
+(The uGems one actually came from ebay, and their own web site doesn't list this item)
 
 There are many many products that look the same and have very similar descriptions in their listings.  
 You have to look over the descriptions carefully to make sure you don't get gold colored anodized aluminum wire with laquer coating.  
@@ -77,20 +73,16 @@ You also need:
 Solder other components on the PCB before doing the legs.
 
 1. Break the 40-pin socket in half.  
-2. Insert the two 20-pin sockets into the breadboard parallel to each other and 0.7 inches apart.  
-3. Cover both sockets with painters tape. If you have 3/4" tape, use two pieces of tape, but make sure their is only a single layer of tape covering the actual socket openings on top.  
-(These pictures show an 0.6" DIP PCB and an 0.6" DIP socket, but the ram module is 0.7" wide, so you need two separate single-row sockets in place of the DIP socket shown here.)  
+2. Insert the two 20-pin sockets into the breadboard parallel to each other, 0.7 inches apart. (These pictures show an 0.6" DIP PCB and an 0.6" DIP socket, but a Model 100 ram module is 0.7" wide, so you need two separate single-row sockets in place of the DIP socket shown here.)  
+4. Cover the sockets with painters tape.  
 ![](wire_legs_1-3.jpg)
 
 4. Place the PCB on top of the tape & sockets. Align the PCB with the sockets under the tape.  
-5. Hold the roll/loop of wire in one hand with the end of the wire in 2 fingers so that you can poke with it.  
+5. Hold the roll or loop of wire in one hand, with the end of the wire in 2 fingers so that you can poke with it.  
 ![](wire_legs_4-5.jpg)
 
 6. Poke the wire down from the top of pin #1, through the PCB, punch through the tape, into the socket below, until the wire hits the bottom of the socket.  
-   If the wire catches on the edge of the socket:  
-   Hold the wire at a point about one inch away from the top of the PCB (meaning maybe back up your grip a little to hold the wire from a little further away from the PCB)  
-   Lessen the downward pressure so you're only pushing down lightly  
-   Move the wire around/side-side/forward-back a little until the wire drops in.  
+* If the wire catches on the edge of the socket, just back up your grip so you're holding the wire from about an inch above the board, lighten the downward force so you're not pushing hard, and wiggle the wire around a little. The hole in the PCB acts like a fulcrum and the wire will drop right in.  
 ![](wire_legs_6.jpg)
 
 7. Cut the wire flush with the top of the PCB.  
