@@ -5,8 +5,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Model T RAM Module"
-Date "2021-04-20"
-Rev "003"
+Date "2021-07-05"
+Rev "004"
 Comp "b.kenyon.w@gmail.com"
 Comment1 ""
 Comment2 ""
@@ -428,35 +428,35 @@ $EndComp
 $Comp
 L 000_LOCAL:74HC08 U2
 U 1 1 608063D1
-P 5500 4200
-F 0 "U2" H 5450 4280 50  0000 C CNN
-F 1 "74HC08" H 5500 4200 50  0000 C CNN
-F 2 "000_LOCAL:SOIC-14_4x9" H 5500 4200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 5500 4200 50  0001 C CNN
-	1    5500 4200
+P 5600 4200
+F 0 "U2" H 5550 4280 50  0000 C CNN
+F 1 "74HC08" H 5600 4200 50  0000 C CNN
+F 2 "000_LOCAL:SOIC-14_4x9" H 5600 4200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 5600 4200 50  0001 C CNN
+	1    5600 4200
 	1    0    0    -1  
 $EndComp
 $Comp
 L 000_LOCAL:74HC08 U2
 U 2 1 60815F59
-P 4900 3500
-F 0 "U2" H 4850 3580 50  0000 C CNN
-F 1 "74HC08" H 4900 3500 50  0000 C CNN
-F 2 "000_LOCAL:SOIC-14_4x9" H 4900 3500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 4900 3500 50  0001 C CNN
-	2    4900 3500
-	1    0    0    -1  
+P 4900 3900
+F 0 "U2" H 4850 3820 50  0000 C CNN
+F 1 "74HC08" H 4900 3900 50  0000 C CNN
+F 2 "000_LOCAL:SOIC-14_4x9" H 4900 3900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 4900 3900 50  0001 C CNN
+	2    4900 3900
+	1    0    0    1   
 $EndComp
 $Comp
 L 000_LOCAL:74HC08 U2
 U 3 1 6081B7BF
-P 4900 3900
-F 0 "U2" H 4850 3980 50  0000 C CNN
-F 1 "74HC08" H 4900 3900 50  0000 C CNN
-F 2 "000_LOCAL:SOIC-14_4x9" H 4900 3900 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 4900 3900 50  0001 C CNN
-	3    4900 3900
-	1    0    0    -1  
+P 4900 3500
+F 0 "U2" H 4850 3420 50  0000 C CNN
+F 1 "74HC08" H 4900 3500 50  0000 C CNN
+F 2 "000_LOCAL:SOIC-14_4x9" H 4900 3500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 4900 3500 50  0001 C CNN
+	3    4900 3500
+	1    0    0    1   
 $EndComp
 $Comp
 L 000_LOCAL:74HC08 U2
@@ -475,35 +475,21 @@ Wire Wire Line
 	4300 4400 4600 4400
 Entry Wire Line
 	4200 3300 4300 3400
-Wire Wire Line
-	4300 3400 4400 3400
 Text Label 4600 4400 2    50   ~ 0
 ~CS_D
 Entry Wire Line
-	4200 3500 4300 3600
-Wire Wire Line
-	4300 3600 4600 3600
+	4200 3600 4300 3700
 Entry Wire Line
-	4200 3900 4300 4000
-Wire Wire Line
-	4300 4000 4600 4000
-Text Label 4600 3600 2    50   ~ 0
-~CS_A
-Text Label 4600 4000 2    50   ~ 0
-~CS_B
+	4200 4000 4300 4100
 Text Label 4600 3400 2    50   ~ 0
-~CS_C
-Wire Wire Line
-	5800 4200 6100 4200
+~CS_B
 Entry Wire Line
 	6100 4200 6200 4100
-Text Label 5800 4200 0    50   ~ 0
+Text Label 5900 4200 0    50   ~ 0
 ~CE
-Wire Wire Line
-	5200 3500 6100 3500
 Entry Wire Line
 	6100 3500 6200 3400
-Text Label 5200 3500 0    50   ~ 0
+Text Label 5200 3900 0    50   ~ 0
 A11
 $Comp
 L power:VCC #PWR0107
@@ -516,31 +502,49 @@ F 3 "" H 8400 4100 50  0001 C CNN
 	1    8400 4100
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	5200 3900 6100 3900
 Entry Wire Line
 	6100 3900 6200 3800
-Text Label 5200 3900 0    50   ~ 0
+Text Label 5200 3500 0    50   ~ 0
 A12
-Wire Wire Line
-	4400 3400 4600 3400
-Wire Wire Line
-	4400 4200 4600 4200
-Connection ~ 4400 3400
-Wire Wire Line
-	4400 3400 4400 4200
-Connection ~ 4600 3600
-Wire Wire Line
-	4600 3600 4600 3800
-Connection ~ 5200 3900
-Wire Wire Line
-	5200 3900 5200 4100
 Connection ~ 4200 5000
 Connection ~ 6200 5000
 Wire Bus Line
 	4200 5000 6200 5000
 Wire Bus Line
 	6200 5000 7000 5000
+Text Label 4600 3700 2    50   ~ 0
+~CS_A
+Text Label 4600 4100 2    50   ~ 0
+~CS_C
+Wire Wire Line
+	4600 4200 4600 4100
+Wire Wire Line
+	4600 4100 4300 4100
+Connection ~ 4600 4100
+Wire Wire Line
+	4600 4100 4600 4000
+Wire Wire Line
+	4600 3800 4600 3700
+Wire Wire Line
+	4600 3700 4300 3700
+Connection ~ 4600 3700
+Wire Wire Line
+	4600 3700 4600 3600
+Wire Wire Line
+	4600 3400 4300 3400
+Wire Wire Line
+	5200 3900 6100 3900
+Wire Wire Line
+	5200 4300 5300 4300
+Wire Wire Line
+	5200 3500 5300 3500
+Wire Wire Line
+	5300 4100 5300 3500
+Connection ~ 5300 3500
+Wire Wire Line
+	5300 3500 6100 3500
+Wire Wire Line
+	6100 4200 5900 4200
 Wire Bus Line
 	6200 3400 6200 5000
 Wire Bus Line
@@ -553,4 +557,6 @@ Wire Bus Line
 	3400 2900 3400 5000
 Wire Bus Line
 	7000 2900 7000 5000
+Text Notes 3810 2980 0    50   ~ 0
+PROBLEM: Does not put chip to sleep when computer is on standby.
 $EndSCHEMATC
