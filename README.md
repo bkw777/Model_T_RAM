@@ -8,6 +8,8 @@
 ![](Model_T_RAM.jpg)  
 ![](Model_T_RAM.svg)
 
+Gerbers available in [releases](../../releases/latest).
+
 [PCB from OSHPark](https://oshpark.com/shared_projects/rI8KQhpD)  
 [PCB from PCBWAY](https://www.pcbway.com/project/shareproject/Model_T_RAM.html)
 
