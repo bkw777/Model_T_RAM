@@ -8,9 +8,12 @@
 ![](Model_T_RAM.jpg)  
 ![](Model_T_RAM.svg)
 
-[PCB from OSHPark](https://oshpark.com/shared_projects/xsQB2kyT)  
+[PCB from OSHPark](https://oshpark.com/shared_projects/rI8KQhpD)  
 [PCB from PCBWAY](https://www.pcbway.com/project/shareproject/Model_T_RAM.html)
 
 [BOM from DigiKey](https://www.digikey.com/short/ft835777)
 
 [How to do the legs](doc/DIP_PCB_legs.md)
+
+----
+Thanks to Steve Adolph for advice about putting RAM_RST on /CE rather than just /OE, to protect against write during power transitions.

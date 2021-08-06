@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "Model T RAM Module"
 Date "2021-08-05"
-Rev "004"
+Rev "005"
 Comp "b.kenyon.w@gmail.com"
 Comment1 ""
 Comment2 ""
@@ -224,10 +224,6 @@ Wire Wire Line
 Entry Wire Line
 	9100 4200 9200 4100
 Wire Wire Line
-	8800 4400 9100 4400
-Entry Wire Line
-	9100 4400 9200 4300
-Wire Wire Line
 	8800 4500 9100 4500
 Entry Wire Line
 	9100 4500 9200 4400
@@ -340,19 +336,6 @@ Text Label 5600 4000 0    50   ~ 0
 A11
 Text Label 5600 3600 0    50   ~ 0
 A12
-Text Label 8800 4200 0    50   ~ 0
-CE2
-$Comp
-L power:GND #PWR0107
-U 1 1 609A2377
-P 8800 4100
-F 0 "#PWR0107" H 8800 3850 50  0001 C CNN
-F 1 "GND" V 8800 3920 50  0000 C CNN
-F 2 "" H 8800 4100 50  0001 C CNN
-F 3 "" H 8800 4100 50  0001 C CNN
-	1    8800 4100
-	0    -1   -1   0   
-$EndComp
 $Comp
 L 000_LOCAL:74HC86 U2
 U 3 1 6078B6F7
@@ -403,8 +386,6 @@ Text Label 2400 4000 2    50   ~ 0
 A9
 Text Label 2400 4100 2    50   ~ 0
 A10
-Text Label 2400 4400 2    50   ~ 0
-~OE
 Text Label 2400 4500 2    50   ~ 0
 ~WE
 Text Label 3400 3100 0    50   ~ 0
@@ -461,8 +442,6 @@ Text Label 8800 3700 0    50   ~ 0
 AD6
 Text Label 8800 3800 0    50   ~ 0
 AD7
-Text Label 8800 4400 0    50   ~ 0
-~OE
 Text Label 8800 4500 0    50   ~ 0
 ~WE
 $Comp
@@ -534,7 +513,7 @@ Entry Wire Line
 	4600 4000 4700 4100
 Connection ~ 4600 5100
 Text Notes 1900 4400 2    50   ~ 0
-RAM_RST
+/OE
 Text Notes 2100 5400 0    50   ~ 0
 RAM_RST is high while machine is on standby
 Text Notes 2100 5600 0    50   ~ 0
@@ -554,6 +533,27 @@ Wire Bus Line
 Connection ~ 6600 5100
 Wire Bus Line
 	6600 5100 7400 5100
+Wire Wire Line
+	8800 4100 9100 4100
+Entry Wire Line
+	9100 4100 9200 4000
+Text Label 8800 4200 0    50   ~ 0
+CE2
+Text Label 8800 4100 0    50   ~ 0
+RAM_RST
+$Comp
+L power:GND #PWR0107
+U 1 1 609A2377
+P 8800 4400
+F 0 "#PWR0107" H 8800 4150 50  0001 C CNN
+F 1 "GND" V 8800 4220 50  0000 C CNN
+F 2 "" H 8800 4400 50  0001 C CNN
+F 3 "" H 8800 4400 50  0001 C CNN
+	1    8800 4400
+	0    -1   -1   0   
+$EndComp
+Text Label 2400 4400 2    50   ~ 0
+RAM_RST
 Wire Bus Line
 	6600 3200 6600 5100
 Wire Bus Line
