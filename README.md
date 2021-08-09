@@ -13,7 +13,7 @@ Gerbers available in [releases](../../releases/latest).
 [PCB from OSHPark](https://oshpark.com/shared_projects/rI8KQhpD)  
 [PCB from PCBWAY](https://www.pcbway.com/project/shareproject/Model_T_RAM.html)
 
-[BOM from DigiKey](https://www.digikey.com/short/ft835777)
+[BOM from DigiKey](https://www.digikey.com/short/93zm37zr)
 
 [How to do the legs](doc/DIP_PCB_legs.md)
 
