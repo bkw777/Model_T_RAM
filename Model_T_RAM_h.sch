@@ -1,1 +1,0 @@
-Model_T_RAM.sch

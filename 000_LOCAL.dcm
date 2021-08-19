@@ -18,6 +18,12 @@ K TTL XOR2
 F 74xx/74ls86.pdf
 $ENDCMP
 #
+$CMP C
+D Unpolarized capacitor, small symbol
+K capacitor cap
+F ~
+$ENDCMP
+#
 $CMP KC-85_RAM
 D 8Kx8 bit Static RAM Module
 K RAM SRAM MEMORY

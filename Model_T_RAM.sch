@@ -5,8 +5,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Model T RAM Module"
-Date "2021-08-05"
-Rev "005"
+Date "2021-08-19"
+Rev "006"
 Comp "b.kenyon.w@gmail.com"
 Comment1 ""
 Comment2 ""
@@ -512,12 +512,8 @@ Entry Wire Line
 Entry Wire Line
 	4600 4000 4700 4100
 Connection ~ 4600 5100
-Text Notes 1900 4400 2    50   ~ 0
-/OE
-Text Notes 2100 5400 0    50   ~ 0
-RAM_RST is high while machine is on standby
-Text Notes 2100 5600 0    50   ~ 0
-VCC is VB, has power at all times
+Text Notes 2100 5500 0    50   ~ 0
+VCC is "VB", and has power at all times.\n\nRAM_RST is high while machine is on standby.
 Text Notes 2800 2860 2    50   ~ 0
 VB
 NoConn ~ 7800 4500
@@ -554,6 +550,74 @@ F 3 "" H 8800 4400 50  0001 C CNN
 $EndComp
 Text Label 2400 4400 2    50   ~ 0
 RAM_RST
+$Comp
+L 000_LOCAL:C C2
+U 1 1 611FFB62
+P 3960 6550
+F 0 "C2" H 4050 6590 50  0000 L CNN
+F 1 "0.1u" H 4050 6500 50  0000 L CNN
+F 2 "000_LOCAL:C_0805" H 3960 6550 50  0001 C CNN
+F 3 "~" H 3960 6550 50  0001 C CNN
+	1    3960 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0109
+U 1 1 6120042F
+P 3960 6450
+F 0 "#PWR0109" H 3960 6300 50  0001 C CNN
+F 1 "VCC" H 4050 6530 50  0000 C CNN
+F 2 "" H 3960 6450 50  0001 C CNN
+F 3 "" H 3960 6450 50  0001 C CNN
+	1    3960 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 6120103B
+P 3960 6650
+F 0 "#PWR0110" H 3960 6400 50  0001 C CNN
+F 1 "GND" H 4080 6570 50  0000 C CNN
+F 2 "" H 3960 6650 50  0001 C CNN
+F 3 "" H 3960 6650 50  0001 C CNN
+	1    3960 6650
+	1    0    0    -1  
+$EndComp
+Text Notes 3430 6910 0    50   ~ 0
+Optional decoupling
+$Comp
+L 000_LOCAL:C C1
+U 1 1 6120A490
+P 3560 6550
+F 0 "C1" H 3650 6590 50  0000 L CNN
+F 1 "0.1u" H 3650 6500 50  0000 L CNN
+F 2 "000_LOCAL:C_0805" H 3560 6550 50  0001 C CNN
+F 3 "~" H 3560 6550 50  0001 C CNN
+	1    3560 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0111
+U 1 1 6120A62C
+P 3560 6450
+F 0 "#PWR0111" H 3560 6300 50  0001 C CNN
+F 1 "VCC" H 3650 6530 50  0000 C CNN
+F 2 "" H 3560 6450 50  0001 C CNN
+F 3 "" H 3560 6450 50  0001 C CNN
+	1    3560 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0112
+U 1 1 6120A636
+P 3560 6650
+F 0 "#PWR0112" H 3560 6400 50  0001 C CNN
+F 1 "GND" H 3680 6570 50  0000 C CNN
+F 2 "" H 3560 6650 50  0001 C CNN
+F 3 "" H 3560 6650 50  0001 C CNN
+	1    3560 6650
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	6600 3200 6600 5100
 Wire Bus Line
