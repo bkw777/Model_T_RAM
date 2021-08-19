@@ -18,4 +18,4 @@ Gerbers available in [releases](../../releases/latest).
 [How to do the legs](doc/DIP_PCB_legs.md)
 
 ----
-Thanks to Steve Adolph for advice about putting RAM_RST on /CE rather than just /OE, to protect against write during power transitions.
+Thanks to Steve Adolph for advice about RAM_RST
