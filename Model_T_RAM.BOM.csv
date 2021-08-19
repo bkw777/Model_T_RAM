@@ -1,4 +1,5 @@
 "Index","Quantity","Part Number","Manufacturer Part Number","Description","Customer Reference","Available","Backorder","Unit Price","Extended Price USD"
-"1","50","A117856CT-ND","1544210-2","SIL CONTACT Y1 THROUGH HOLE","","50","0","0.03040","1.52"
-"2","1","1450-1037-ND","AS6C6264-55SCN","IC SRAM 64KBIT PARALLEL 28SOP","","1","0","3.21000","3.21"
+"1","1","1450-1037-ND","AS6C6264-55SCN","IC SRAM 64KBIT PARALLEL 28SOP","","1","0","3.21000","3.21"
+"2","50","A117856CT-ND","1544210-2","SIL CONTACT Y1 THROUGH HOLE","","50","0","0.03040","1.52"
 "3","1","MC74HCT86ADR2GOSCT-ND","MC74HCT86ADR2G","IC GATE XOR 4CH 2-INP 14SOIC","","1","0","0.49000","0.49"
+"4","2","732-8045-1-ND","885012207045","CAP CER 0.1UF 16V X7R 0805","","2","0","0.10000","0.20"
