@@ -17,5 +17,7 @@ Gerbers available in [releases](../../releases/latest).
 
 [How to do the legs](doc/DIP_PCB_legs.md)
 
+C1 & C2 are optional: 2 x [0.1uF 0805](https://www.digikey.com/short/hd15vqp7)
+
 ----
 Thanks to Steve Adolph for advice about putting RAM_RST on /CE rather than just /OE, to protect against write during power transitions.
