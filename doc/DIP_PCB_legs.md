@@ -48,7 +48,6 @@ A few good examples:
 [etsy StirlingSilverBox](https://www.etsy.com/listing/792331329/14k-gold-filled-wires-round-wires-soft?variation0=1365993623&variation1=1347469632)  
 [etsy AnniesLittleThings](https://www.etsy.com/listing/880346812/550meters-14k-real-gold-plated-brass?organic_search_click=1&pro=1&variation0=1599473932&variation1=1614789293)  
 ![](wire_legs_wire.jpg)  
-(The uGems one actually came from ebay, and their own web site doesn't list this item)
 
 There are many many products that look the same and have very similar descriptions in their listings.  
 You have to look over the descriptions carefully to make sure you don't get gold colored anodized aluminum wire with laquer coating.  
