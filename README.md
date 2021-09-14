@@ -10,7 +10,7 @@
 
 Gerbers available in [releases](../../releases/latest).
 
-[PCB from OSHPark](https://oshpark.com/shared_projects/HOKfWeCp)  
+[PCB from OSHPark](https://oshpark.com/shared_projects/muTKraBQ)  
 [PCB from PCBWAY](https://www.pcbway.com/project/shareproject/Model_T_RAM.html)
 
 [BOM from DigiKey](https://www.digikey.com/short/vbnv3rnf)
