@@ -6,7 +6,7 @@
     (property "Value" "6264" (id 1) (at 2.54 20.955 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Footprint" "Package_DIP:DIP-28_W15.24mm" (id 2) (at 0 -2.54 0)
+    (property "Footprint" "000_LOCAL:SSOP-28" (id 2) (at 0 -2.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.futurlec.com/Datasheet/Memory/62256.pdf" (id 3) (at 0 -2.54 0)
@@ -141,17 +141,17 @@
       )
     )
   )
-  (symbol "74LS86" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "7486" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 1.27 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "74LS86" (id 1) (at 0 -1.27 0)
+    (property "Value" "7486" (id 1) (at 0 -1.27 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (id 2) (at 0 0 0)
+    (property "Footprint" "000_LOCAL:SOIC-14_4x9" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "74xx/74ls86.pdf" (id 3) (at 0 0 0)
+    (property "Datasheet" "" (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_locked" "" (id 4) (at 0 0 0)
@@ -163,10 +163,7 @@
     (property "ki_description" "Quad 2-input XOR" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "DIP*W7.62mm*" (id 7) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "74LS86_1_0"
+    (symbol "7486_1_0"
       (arc (start -4.4196 -3.81) (mid -3.2033 0) (end -4.4196 3.81)
         (stroke (width 0.254) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -230,7 +227,7 @@
         (number "3" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "74LS86_1_1"
+    (symbol "7486_1_1"
       (polyline
         (pts
           (xy -3.81 -2.54)
@@ -248,7 +245,7 @@
         (fill (type none))
       )
     )
-    (symbol "74LS86_2_0"
+    (symbol "7486_2_0"
       (arc (start -4.4196 -3.81) (mid -3.2033 0) (end -4.4196 3.81)
         (stroke (width 0.254) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -312,7 +309,7 @@
         (number "6" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "74LS86_2_1"
+    (symbol "7486_2_1"
       (polyline
         (pts
           (xy -3.81 -2.54)
@@ -330,7 +327,7 @@
         (fill (type none))
       )
     )
-    (symbol "74LS86_3_0"
+    (symbol "7486_3_0"
       (arc (start -4.4196 -3.81) (mid -3.2033 0) (end -4.4196 3.81)
         (stroke (width 0.254) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -394,7 +391,7 @@
         (number "9" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "74LS86_3_1"
+    (symbol "7486_3_1"
       (polyline
         (pts
           (xy -3.81 -2.54)
@@ -412,7 +409,7 @@
         (fill (type none))
       )
     )
-    (symbol "74LS86_4_0"
+    (symbol "7486_4_0"
       (arc (start -4.4196 -3.81) (mid -3.2033 0) (end -4.4196 3.81)
         (stroke (width 0.254) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -476,7 +473,7 @@
         (number "13" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "74LS86_4_1"
+    (symbol "7486_4_1"
       (polyline
         (pts
           (xy -3.81 -2.54)
@@ -494,7 +491,7 @@
         (fill (type none))
       )
     )
-    (symbol "74LS86_5_0"
+    (symbol "7486_5_0"
       (pin power_in line (at 0 12.7 270) (length 5.08)
         (name "VCC" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
@@ -504,14 +501,14 @@
         (number "7" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "74LS86_5_1"
+    (symbol "7486_5_1"
       (rectangle (start -5.08 7.62) (end 5.08 -7.62)
         (stroke (width 0.254) (type default) (color 0 0 0 0))
         (fill (type background))
       )
     )
   )
-  (symbol "74HC86" (extends "74LS86")
+  (symbol "74HC86" (extends "7486")
     (property "Reference" "U" (id 0) (at 0 1.27 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -592,7 +589,7 @@
     (property "Value" "KC-85_RAM" (id 1) (at 2.54 20.955 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Footprint" "000_LOCAL:DIP28_0.73_pcb_sil_pins" (id 2) (at 0 -2.54 0)
+    (property "Footprint" "000_LOCAL:DIP28_725mils_pcb_pins" (id 2) (at 0 -2.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 0 -2.54 0)
