@@ -6,10 +6,10 @@
     (property "Value" "6264" (id 1) (at 2.54 20.955 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Footprint" "000_LOCAL:SSOP-28" (id 2) (at 0 -2.54 0)
+    (property "Footprint" "000_LOCAL:SSOP-28" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.futurlec.com/Datasheet/Memory/62256.pdf" (id 3) (at 0 -2.54 0)
+    (property "Datasheet" "https://www.futurlec.com/Datasheet/Memory/62256.pdf" (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_keywords" "RAM SRAM MEMORY" (id 4) (at 0 0 0)
@@ -35,7 +35,7 @@
       )
     )
     (symbol "6264_1_1"
-      (pin no_connect line (at -12.7 -17.78 0) (length 2.54)
+      (pin no_connect non_logic (at -10.16 -17.78 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
